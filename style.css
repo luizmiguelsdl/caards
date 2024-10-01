@@ -1,0 +1,164 @@
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+    }
+    
+    .titulo{
+        text-align: center; 
+        font-family: sans-serif;
+        font-weight: 200;
+        color: var(--Very-Dark-Blue);
+    }
+    
+    .paragrafo{
+        text-align: center;
+        font-family: sans-serif;
+        color: var(--Very-Dark-Blue);
+        font-size: 15px;
+    }
+    
+    .card-1{
+        font-family: sans-serif;
+        color: var(--Very-Dark-Blue);
+        box-shadow: 2px 2px 17px 9px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 2px 2px 17px 9px rgba(0,0,0,0.18);
+    -moz-box-shadow: 2px 2px 17px 9px rgba(0,0,0,0.18);
+        height: 195px;
+        width: 340px;
+        display: inline-block;
+        border-radius: 10px;
+        font-size: 15px;
+        display: grid;
+        position: relative;
+        left: 100px;
+        top:200px;
+        text-align: center;
+    }
+    
+    .lupa{
+        position: relative;
+        left: 140px;
+        bottom: 4px;
+    }
+    
+    .cor{
+        width: 340px;
+        height: 8px;
+        background-color: var(--Cyan);
+        border-radius: 5px;
+    }
+    
+    .card-2{
+        font-family: sans-serif;
+        color: var(--Very-Dark-Blue);
+        box-shadow: -2px 0px 29px -8px rgba(0,0,0,1);
+        box-shadow: 2px 2px 17px 9px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 2px 2px 17px 9px rgba(0,0,0,0.18);
+    -moz-box-shadow: 2px 2px 17px 9px rgba(0,0,0,0.18);
+        height: 285px;
+        width: 310px;
+        border-radius: 5px;
+        font-size: 15px;
+        display: grid;
+        position: relative;
+        left: 470px;
+        bottom: 180px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    .paragrafodois{
+        color: var(--Very-Dark-Blue);
+    }
+    
+    .titulocard2{
+        color: var(--Very-Dark-Blue);
+    }
+    
+    .cor2{
+        background-color: var(--Red);
+        width: 310px;
+        height: 8px;
+        border-radius: 5px;
+    }
+    
+    .imagemdiv2{
+        position: relative;
+        left: 130px;
+    }
+    
+    .card-3{
+        font-family: sans-serif;
+        color: var(--Very-Dark-Blue);
+        box-shadow: -2px 0px 29px -8px rgba(0,0,0,1);
+        box-shadow: 2px 2px 17px 9px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 2px 2px 17px 9px rgba(0,0,0,0.18);
+    -moz-box-shadow: 2px 2px 17px 9px rgba(0,0,0,0.18);
+        height: 195px;
+        width: 340px;
+        display: inline-block;
+        border-radius: 5px;
+        font-size: 15px;
+        display: grid;
+        position: relative;
+        left: 810px;
+        bottom: 265px;
+        border-radius: 10px;
+        text-align: center;
+        
+    }
+    
+    .cor3{
+        background-color: var(--Blue);
+        width: 340px;
+        height: 8px;
+        border-radius: 5px;
+    }
+    
+    .imagemcard3{
+        position: relative;
+        left: 140px;
+        bottom: 5px;
+    }
+    
+    .card-4{
+        font-family: sans-serif;
+        color: var(--Very-Dark-Blue);
+        box-shadow: 2px 2px 17px 9px rgba(0,0,0,0.18);
+    -webkit-box-shadow: 2px 2px 17px 9px rgba(0,0,0,0.18);
+    -moz-box-shadow: 2px 2px 17px 9px rgba(0,0,0,0.18);
+        height: 285px;
+        width: 310px;
+        border-radius: 5px;
+        font-size: 15px;
+        display: grid;
+        position: relative;
+        left: 470px;
+        bottom: 330px;
+        border-radius: 10px;
+        text-align: center;
+        
+    }
+    
+    .cor4{
+        background-color: var(--Red);
+        width: 310px;
+        height: 8px;
+        border-radius: 5px;
+        background-color: var(--Orange);
+    }
+    
+    .imagemcard4{
+        position: relative;
+        left: 130px;
+    }
+    
+    .superdiv{
+        position: relative;
+        top: 50px;
+    }
